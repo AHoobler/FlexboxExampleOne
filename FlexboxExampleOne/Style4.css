@@ -1,0 +1,52 @@
+﻿
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    /*width: 20vh;*/
+}
+
+main{
+    display: flex;
+    flex: 1;
+}
+
+nav,
+aside{
+    height: 20vh;
+}
+
+article{
+    flex: 1;
+}
+
+nav{
+    order: -1;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+nav,
+aside {
+    background: #808080;
+    padding: 10px;
+    width: 20vw;
+}
+
+header,
+footer {
+    background: rgba(0,0,0,0.18);
+    height: 20vh;
+    padding: 10px;
+}
+
+article {
+    padding: 10px;
+}
